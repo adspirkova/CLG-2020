@@ -1,0 +1,219 @@
+/**************************
+Step 7 Insert the body tag on the top of the document 
+**************************/
+
+/* 
+body {
+
+}
+ */
+
+/**************************
+Step 8 Set the width for .container selector below 
+**************************/
+
+/* 
+.container {
+
+}
+ */
+
+/**************************
+Step 9 Style font-size and text-align for nav element 
+**************************/
+
+/* 
+nav {
+
+}
+ */
+
+/**************************
+Step 10 Resize image 
+**************************/
+
+/* 
+img {
+  width:
+  height:
+  border-radius:
+}
+ */
+
+/**************************
+Step 11 Change colors of first letters 
+**************************/
+
+/* 
+.green {
+  color:
+}
+
+.red {
+  color:
+}
+
+.blue {
+  color:
+}
+ */
+
+/************************** 
+Step 11 Background color for 
+.mission
+.about-us
+.team
+.contact
+sections
+**************************/
+
+/* 
+.mission {
+  background-color:
+  color: 
+  text-align:
+}
+
+.about-us {
+  background-color:
+}
+
+.team {
+  background-color:
+  color:
+}
+
+.contact {
+  background-color:
+  color:
+}
+ */
+
+/************************** 
+Step 12 Padding for section element 
+**************************/
+
+/* 
+section {
+  padding: Xrem Xrem Xrem Xrem;
+}
+ */
+
+/**************************
+Step  13 Banner 
+**************************/
+
+/* 
+.banner {
+  height:
+  background: url('') center/cover no-repeat;
+}
+ */
+
+
+/**************************
+Step 14 id selector 
+**************************/
+
+/* 
+#myList {
+  list-style: none;
+}
+ */
+
+/************************** 
+Step 16 Play with list 
+**************************/
+
+/* 
+li.item{
+  padding:
+}
+
+.bsa, .sea {
+  color:
+}
+
+.venturing {
+  color:
+}
+
+.banner h1 {
+  width:
+  padding-bottom:
+  border-bottom:
+  color:  
+}
+ */
+
+/**************************
+Step 17 Set state for <a> tag in <nav> bar 
+**************************/
+
+/* 
+nav a:hover {
+  color: 
+  font-weight:
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************
+Original set up 
+**************************/
+
+nav a {
+  color: black;
+  display: inline;
+  padding: 0 1rem;
+  line-height: 3rem;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-weight: 900;
+}
+
+h1, h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0;
+  line-height: 150%;
+}
+
+.person {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.contact-part {
+  margin-bottom: 1rem;
+}
