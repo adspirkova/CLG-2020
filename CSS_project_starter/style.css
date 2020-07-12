@@ -1,5 +1,5 @@
 /**************************
-Step 7 Insert the body tag on the top of the document 
+Step 7 Vlož hodnoty pro body tag.
 **************************/
 
 /* 
@@ -9,7 +9,7 @@ body {
  */
 
 /**************************
-Step 8 Set the width for .container selector below 
+Step 8 Nastav šířku a okraj(margin) pro .container selector 
 **************************/
 
 /* 
@@ -19,7 +19,7 @@ Step 8 Set the width for .container selector below
  */
 
 /**************************
-Step 9 Style font-size and text-align for nav element 
+Step 9 Nastav font-size a text-align pro nav element 
 **************************/
 
 /* 
@@ -29,7 +29,7 @@ nav {
  */
 
 /**************************
-Step 10 Resize image 
+Step 10 Změň velikost obrázkům
 **************************/
 
 /* 
@@ -41,7 +41,7 @@ img {
  */
 
 /**************************
-Step 11 Change colors of first letters 
+Step 11 Nastav každému písmenu jinou barvu
 **************************/
 
 /* 
@@ -59,7 +59,7 @@ Step 11 Change colors of first letters
  */
 
 /************************** 
-Step 11 Background color for 
+Step 11 Změn barvu pozadí (background-color) následujícím třídám
 .mission
 .about-us
 .team
@@ -90,7 +90,7 @@ sections
  */
 
 /************************** 
-Step 12 Padding for section element 
+Step 12 Nastav "vatu" (padding) pro section element = přepiš "X"
 **************************/
 
 /* 
@@ -100,7 +100,7 @@ section {
  */
 
 /**************************
-Step  13 Banner 
+Step  13 Uprav hlavní banner
 **************************/
 
 /* 
@@ -112,7 +112,7 @@ Step  13 Banner
 
 
 /**************************
-Step 14 id selector 
+Step 14 Vybíráme podle id elementu
 **************************/
 
 /* 
@@ -122,7 +122,7 @@ Step 14 id selector
  */
 
 /************************** 
-Step 16 Play with list 
+Step 16 Hrajeme si s položkami seznamu
 **************************/
 
 /* 
@@ -137,17 +137,10 @@ li.item{
 .venturing {
   color:
 }
-
-.banner h1 {
-  width:
-  padding-bottom:
-  border-bottom:
-  color:  
-}
  */
 
 /**************************
-Step 17 Set state for <a> tag in <nav> bar 
+Step 17 Nastav speciální stav pro :hover (přejetí myší) pro <a> tag v <nav> baru
 **************************/
 
 /* 
@@ -216,4 +209,11 @@ p {
 
 .contact-part {
   margin-bottom: 1rem;
+}
+
+.banner h1 {
+  width: 18rem;
+  padding-bottom: 1rem;
+  border-bottom: 4px solid white;
+  color: white; 
 }

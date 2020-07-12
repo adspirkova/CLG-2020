@@ -93,13 +93,6 @@ li.item{
   color: brown;
 }
 
-.banner h1 {
-  width: 18rem;
-  padding-bottom: 1rem;
-  border-bottom: 4px solid white;
-  color: white;  
-}
-
 /* Step 17 Set state for <a> tag in <nav> bar */
 nav a:hover {
   color: #223c88;
@@ -164,4 +157,11 @@ p {
 
 .contact-part {
   margin-bottom: 1rem;
+}
+
+.banner h1 {
+  width: 18rem;
+  padding-bottom: 1rem;
+  border-bottom: 4px solid white;
+  color: white;  
 }

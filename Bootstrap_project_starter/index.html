@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-------------------------------
+  1. Níže přidej odkaz na CSS
+  --------------------------------->
+
+  
+  <!-------------------------------
+  2. Níže přidej odkaz na Javascript
+  --------------------------------->
+  
+
+  <!-------------------------------
+  3. Níže odkomentuj odkaz na náš stylesheet
+  --------------------------------->
+  
+
+  <title>International Girls Scout</title>
+</head>
+<!-------------------------------
+7. Text Color
+--------------------------------->
+<body class="">
+  <header>
+    <!-------------------------------
+    5. Navbar
+    --------------------------------->
+    <nav class="container">
+      <a href="#">home</a>
+      <a href="#mission">mission</a>
+      <a href="#about-us">about us</a>
+      <a href="#team">our team</a>
+      <a href="#contact">contact</a>
+    </nav>
+  </header>
+
+  <!-------------------------------
+  4. Jumbotron
+  --------------------------------->
+  <section class="banner">
+    <div class="container">
+      <h1>
+        <span class="blue">I</span>nternational 
+        <br>
+        <span class="red">G</span>irls
+        <br>
+        <span class="green">S</span>cout</h1>
+        
+    </div>
+  </section>
+  
+  <a name="mission" />
+  <!-------------------------------
+  6. Background Color
+  --------------------------------->
+  <section class="mission">
+    <div class="container">
+      <h2>mission</h2>
+      <p>
+        Scouting is adventure, family, fun, character, leadership and so much more. 
+
+        In Scouting, boys and girls start with their best right now selves and grow into their very best future selves. It’s fun, hands-on learning and achievement that puts kids in the middle of the action and prepares them for today – and for life.
+        
+        Scout me in.
+      </p>
+
+      <!-------------------------------
+      8. Button
+      --------------------------------->
+      
+    </div>
+  </section>
+
+  <a name="about-us" />
+  <!-------------------------------
+  6. Background Color (+ Text color)
+  --------------------------------->
+  <section class="about-us">
+    <div class="container">
+      <h2>about us</h2>
+      <p>
+        International Girls Scout promotes a culture where each youth, volunteer, and employee feels a sense of belonging and builds communities where every person feels respected and valued.
+        Leading by example and encouraging each other to live by the values expressed by the Scout Oath and Scout Law, we welcome families of all backgrounds to help prepare young people to serve as successful members and leaders of our nation’s increasingly diverse communities.
+      </p>
+      <br/>
+      <div>
+        <h5>Scouting Programs</h5>
+        <!-------------------------------
+        10. List group
+        --------------------------------->
+        <ul id="myList" class="">
+          <li class="item bsa">Scouts BSA</li>
+          <li class="item venturing">Venturing Scout</li>
+          <li class="item sea">Sea Scouting</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <a name="team"/>
+  <!-------------------------------
+  6. Background Color
+  --------------------------------->
+  <section class="team">
+    <div class="container">
+      <h2>our team</h2>
+    <!-------------------------------
+      11.a Layout Grid - row
+    --------------------------------->
+    <div class="">
+      <!-------------------------------
+      11.b Layout Grid - col-md
+      --------------------------------->
+      <div class="person">
+        <img src="img/Gandalf.jpg" alt="Gandalf" />
+        <h3>Gandalf</h3>
+        <p>Scout Program Director</p>
+      </div>
+
+      <!-------------------------------
+      11.b Layout Grid - col-md
+      --------------------------------->
+      <div class="person">
+        <img src="img/Legolas.png" alt="Legolas" />
+        <h3>Legolas</h3>
+        <p>Assistant</p>
+      </div>
+
+      <!-------------------------------
+      11.b Layout Grid - col-md
+      --------------------------------->
+      <div class="person">
+        <img src="img/Gimli.png" alt="Gimli" />
+        <h3>Gimli</h3>
+        <p>Scout Specialist</p>
+      </div>
+
+      <!-------------------------------
+      11.b Layout Grid - col-md
+      --------------------------------->
+      <div class="person">
+        <img src="img/Frodo.png" alt="Frodo" />
+        <h3>Frodo</h3>
+        <p>Scout Trainee</p>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <a name="contact" />
+  <!-------------------------------
+  6. Background Color
+  --------------------------------->
+  <section class="contact">
+    <div class="container">
+      <h2>contact</h2>
+      <div class="contact-part">
+        <strong>Address:</strong>
+        <p>
+          12 Highway Road<br />
+          Prague<br />
+          110 00
+        </p>
+      </div>
+      
+      <div class="contact-part">
+        <strong>Phone:</strong>
+        <p>
+          123 456 789
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="container col-6">
+    <!-------------------------------
+    9. Form
+    --------------------------------->
+    
+  </div>
+</body>
+
+<script>
+  const hello = () => {
+    alert('Button clicked!');
+  };
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.querySelectorAll('.btn');
+    btn.forEach((item) => {
+      item.addEventListener('click', hello);
+    });
+  });
+</script>
+</html>
