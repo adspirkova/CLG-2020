@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 200px;
+}
+
+body {
+    color: whitesmoke;
+    height: 100vh;
+    text-align: center;
+    /* Gradient at a 45-degree angle */
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient */
+
+}
+
+

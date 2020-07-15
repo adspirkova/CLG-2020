@@ -11,3 +11,7 @@ p, ul {
 section {
   padding: 10vh 0;
 }
+
+.bg-info {
+  background-color: pink;
+}
